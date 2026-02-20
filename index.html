@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Justice Innovation 101 — Tech for Justice Edition</title>
+<meta name="description" content="An 18-hour overnight sprint where students tackled real-world justice challenges and built tech-powered solutions — from dusk to dawn and beyond. TinkerSpace, Kochi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="grain"></div>
+
+<nav id="mainNav">
+  <a href="#hero" class="logo" aria-label="Leadership Labs">
+    <span class="logo-icon" aria-hidden="true"></span>
+    <span class="logo-text">Leadership Labs</span>
+  </a>
+  <div class="nav-links">
+    <a href="#problems" data-section="problems">Problem Statements</a>
+    <a href="#prototypes" data-section="prototypes">Prototypes</a>
+    <a href="#gallery" data-section="gallery">Photos</a>
+  </div>
+  <button class="nav-hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+<div class="nav-mobile-menu" id="mobileMenu">
+  <a href="#problems">Problem Statements</a>
+  <a href="#prototypes">Prototypes</a>
+  <a href="#gallery">Photos</a>
+</div>
+
+<section class="hero" id="hero">
+  <div class="hero-stars" id="starsLayer"></div>
+  <div class="shooting-star shooting-star-1"></div>
+  <div class="shooting-star shooting-star-2"></div>
+  <div class="hero-moon"></div>
+  <div class="hero-sun"></div>
+  <div class="hero-clouds">
+    <div class="cloud cloud-1"></div><div class="cloud cloud-2"></div><div class="cloud cloud-3"></div><div class="cloud cloud-4"></div>
+  </div>
+  <div class="hero-horizon">
+    <svg width="100%" height="100%" viewBox="0 0 1440 80" preserveAspectRatio="none">
+      <path d="M0,80 L0,50 Q60,35 120,42 Q180,48 240,38 Q280,32 320,40 Q380,50 440,35 Q500,20 560,30 Q620,42 680,36 Q740,28 800,34 Q860,42 920,32 Q980,22 1040,35 Q1100,48 1160,38 Q1220,28 1280,36 Q1340,45 1400,38 L1440,42 L1440,80 Z" fill="rgba(8,8,22,0.95)"></path>
+    </svg>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">An 18-Hour Sprint</div>
+    <h1>Justice Innovation <em>101</em></h1>
+    <p class="hero-sub">Tech for Justice Edition — where students tackled real-world justice challenges and built technology-powered solutions in one extraordinary overnight sprint.</p>
+    <div class="hero-meta">
+      <span>TinkerSpace, Ernakulam</span>
+      <span>7–8 November 2025</span>
+      <span>6:30 PM → 12:30 PM</span>
+    </div>
+  </div>
+
+  <div class="hero-scroll"><span>Scroll to explore</span><div class="arrow"></div></div>
+</section>
+
+<div class="impact-strip">
+  <div class="impact-item" data-animate><div class="impact-num">18</div><div class="impact-label">Hours</div></div>
+  <div class="impact-item" data-animate><div class="impact-num">18</div><div class="impact-label">Participants</div></div>
+  <div class="impact-item" data-animate><div class="impact-num">6</div><div class="impact-label">Teams</div></div>
+  <div class="impact-item" data-animate><div class="impact-num">5</div><div class="impact-label">Problem Statements</div></div>
+  <div class="impact-item" data-animate><div class="impact-num">6</div><div class="impact-label">Prototypes Built</div></div>
+</div>
+
+<div class="river-divider bg-night" data-animate>
+  <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+    <defs><linearGradient id="riverGrad" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:#2a9d8f;stop-opacity:0.1"></stop><stop offset="50%" style="stop-color:#d4a259;stop-opacity:0.4"></stop><stop offset="100%" style="stop-color:#2a9d8f;stop-opacity:0.1"></stop></linearGradient></defs>
+    <path class="river-path" d="M0,60 C200,20 300,100 500,50 C700,0 800,90 1000,40 C1100,20 1150,70 1200,60"></path>
+  </svg>
+</div>
+
+<div class="bg-night-mid" id="evening">
+  <section class="section">
+    <div class="section-label">Evening — Setting the Stage</div>
+    <div class="section-title">It began with a question: <br><em style="color:var(--gold)">What does justice mean to you?</em></div>
+    <div class="section-body">The sprint opened with an icebreaker — say your name, share your pronouns, and do one thing while claiming you're doing the opposite. Laughter filled TinkerSpace. Then came the harder question. Participants answered with “fairness,” “freedom,” “equality,” and — memorably — “the opposite of injustice.”</div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="timeline-wrap"><div class="timeline-line"></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">7:00 PM</div><div class="tl-content"><h3>Icebreaker</h3><p>Names, pronouns, and playful contradictions. “I am standing,” said the person sitting down. The room warmed up quickly.</p></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">7:15 PM</div><div class="tl-content"><h3>Justice &amp; Innovation — A Discussion</h3><p>From fairness to AI bias, from space technology to the meaning of progress — participants surfaced diverse interpretations.</p><span class="tl-tag">Design Thinking</span></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">7:30 PM</div><div class="tl-content"><h3>Four Levels of Listening</h3><p>Participants learned the cyclical process of listening — downloading, factual, empathic, and generative.</p></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot active"></div><div class="tl-time">8:00 PM</div><div class="tl-content"><h3>River of Life</h3><p>Participants drew life rivers and shared in triads. Common threads emerged: happy childhoods, chaotic transitions, and the search for meaning.</p><span class="tl-tag">Deep Sharing</span></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">8:30 PM</div><div class="tl-content"><h3>Privilege &amp; Identity</h3><p>Reflections on power and vulnerability across identity markers — language, education, caste, and place.</p><span class="tl-tag">Reflective</span></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">8:50 PM</div><div class="tl-content"><h3>The Gadda Problem</h3><p>Find the root cause. A simple fix can unravel a complex problem.</p></div></div>
+    </div>
+  </section>
+</div>
+
+<div class="quote-float bg-deep-night" data-animate>
+  <div class="quote-text">"Felt like the group widened my perspectives on stuff I had strong opinions on."</div>
+  <div class="quote-attr">— Participant Reflection</div>
+</div>
+
+<div class="bg-night-mid" id="deep-work">
+  <section class="section">
+    <div class="section-label">Late Night — Deep Work</div>
+    <div class="section-title">Diving into <em style="color:var(--gold)">real-world cases</em></div>
+    <div class="section-body">Using Nesta’s Collective Intelligence case studies and 6W2H framing, teams drilled into root causes and system complexity.</div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="timeline-wrap"><div class="timeline-line"></div>
+      <div class="tl-item" data-animate><div class="tl-dot active"></div><div class="tl-time">10:15 PM</div><div class="tl-content"><h3>Problem Identification</h3><p>Groups used structured worksheets to identify, map and test ideas.</p><span class="tl-tag">Frameworks</span></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">11:30 PM</div><div class="tl-content"><h3>Justicemakers &amp; Inspiration</h3><p>Stories from Agami ecosystem teams emphasized technology as one part of a broader toolkit.</p></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">2:05 AM</div><div class="tl-content"><h3>Team Values &amp; Clay Modelling</h3><p>Teams merged individual values into collective identity and purpose.</p></div></div>
+      <div class="tl-item" data-animate><div class="tl-dot"></div><div class="tl-time">2:45 AM</div><div class="tl-content"><h3>Known-Unknowns</h3><p>A humility-centered discussion on the limits of what we know about lived realities.</p><span class="tl-tag">Philosophical</span></div></div>
+    </div>
+  </section>
+</div>
+
+<div class="bg-dawn" id="problems">
+  <section class="section">
+    <div class="section-label">Dawn — The Real Challenge</div>
+    <div class="section-title">Five problems. <em style="color:var(--gold)">Six teams.</em> One mission.</div>
+    <div class="section-body">At 5 AM, teams received real justice challenges rooted in Kerala’s communities and sprinted to prototype solutions.</div>
+
+    <div class="problems-grid">
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 01</div><div class="pc-question">How do we tackle accessibility in public spaces across Kochi?</div><div class="pc-team">Team Sleepy Abs · Mentor: Gauri</div><div class="pc-desc">Developed <strong>OASIS</strong> to discover inclusive spaces and community-report accessibility gaps.</div><div class="pc-links"><a href="https://cityscape-care.lovable.app/" class="pc-link" target="_blank">View Prototype →</a></div><div class="pc-expand-hint">Click to expand</div></div>
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 02</div><div class="pc-question">How do we ensure vulnerable children in Kerala get the education they deserve?</div><div class="pc-team">Team Liberty · Mentor: Aayra</div><div class="pc-desc">Focused on early diagnosis, financial transparency, and human capital investment.</div><div class="pc-links"><a href="https://teach-support-shine.lovable.app/" class="pc-link" target="_blank">View Prototype →</a></div><div class="pc-expand-hint">Click to expand</div></div>
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 03</div><div class="pc-question">How do we make POSH law actually work on college campuses in Ernakulam?</div><div class="pc-team">Team West · Mentor: Dimple</div><div class="pc-desc">Explored implementation barriers and campus-level awareness approaches.</div><div class="pc-expand-hint">Click to expand</div></div>
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 04</div><div class="pc-question">How do we bridge the information gap between producers and consumers?</div><div class="pc-team">Team Suraj · Mentor: Sankalp</div><div class="pc-desc">Proposed QR-based product transparency with accessible compliance details.</div><div class="pc-expand-hint">Click to expand</div></div>
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 05</div><div class="pc-question">How do we get youth actively involved in governance and lawmaking?</div><div class="pc-team">Team Sorbet · Mentor: Rohit</div><div class="pc-desc">Addressed barriers of being unaware, unheard, and excluded through civic tools.</div><div class="pc-expand-hint">Click to expand</div></div>
+      <div class="problem-card" data-animate onclick="this.classList.toggle('expanded')"><div class="pc-number">PROBLEM 06</div><div class="pc-question">Invisible disabilities in Kerala</div><div class="pc-team">Team Teen Titans · Mentor: Gatha</div><div class="pc-desc">Built <strong>Saral</strong> to improve awareness and accessibility support.</div><div class="pc-expand-hint">Click to expand</div></div>
+    </div>
+  </section>
+
+  <section class="section" id="prototypes" style="padding-top:1.5rem">
+    <div class="section-label">Selected Prototypes</div>
+    <div class="section-title">Built during the sprint</div>
+    <div class="section-body">Two live prototypes from the problem statements section.</div>
+
+    <div class="problems-grid" style="margin-top:1.5rem">
+      <div class="problem-card expanded" data-animate>
+        <div class="pc-number">PROTOTYPE 01</div>
+        <div class="pc-question">How do we tackle accessibility in public spaces across Kochi?</div>
+        <div class="pc-team">Team Sleepy Abs · Mentor: Gauri</div>
+        <div class="pc-desc">Developed <strong>OASIS</strong> to discover inclusive spaces and community-report accessibility gaps.</div>
+        <div class="pc-links"><a href="https://cityscape-care.lovable.app/" class="pc-link" target="_blank">View Prototype →</a></div>
+      </div>
+      <div class="problem-card expanded" data-animate>
+        <div class="pc-number">PROTOTYPE 02</div>
+        <div class="pc-question">How do we ensure vulnerable children in Kerala get the education they deserve?</div>
+        <div class="pc-team">Team Liberty · Mentor: Aayra</div>
+        <div class="pc-desc">Focused on early diagnosis, financial transparency, and human capital investment.</div>
+        <div class="pc-links"><a href="https://teach-support-shine.lovable.app/" class="pc-link" target="_blank">View Prototype →</a></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<div class="bg-sunrise">
+  <div class="sunrise-banner"><div class="time-badge">6:00 AM → 10:45 AM</div><h2>The Final Push</h2><p>With mentors by their side, teams built prototypes, refined framing, and prepared presentations.</p></div>
+</div>
+
+<div class="bg-morning" id="presentations">
+  <section class="section">
+    <div class="section-label">Morning — Presentations &amp; Reflection</div>
+    <div class="section-title" style="color:var(--ink)">Six ideas. Loud cheers.</div>
+    <div class="section-body">The sprint culminated in team demos and reflective feedback from facilitators and peers.</div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="section-label">What Participants Said</div>
+    <div class="section-title" style="color:var(--ink)">In their own words</div>
+    <div class="feedback-grid">
+      <div class="feedback-card" data-animate><div class="quote-mark">"</div><p>This workshop changed how I see justice challenges — from broad framing to actionable specifics.</p></div>
+      <div class="feedback-card" data-animate><div class="quote-mark">"</div><p>One such event where even dreams can't compare!!!</p></div>
+      <div class="feedback-card" data-animate><div class="quote-mark">"</div><p>We were about to run away at dinner time, glad we didn't.</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:2rem">
+    <div class="section-label">Our Reflections</div>
+    <div class="section-title" style="color:var(--ink)">What we'd do differently</div>
+    <div class="section-body" style="margin-bottom:2rem">Honest reflections from the organising team.</div>
+
+    <div class="learnings-grid">
+      <div class="learning-row header" data-animate><div class="l-cell">Area</div><div class="l-cell">What Went Well</div><div class="l-cell">What Could Improve</div></div>
+      <div class="learning-row" data-animate><div class="l-cell" data-label="Area">Icebreakers &amp; Activities</div><div class="l-cell" data-label="What Went Well">Fun, well-timed breaks that energised the room</div><div class="l-cell" data-label="What Could Improve">More body-based activities; icebreaker in regional language; stronger connection to hackathon theme</div></div>
+      <div class="learning-row" data-animate><div class="l-cell" data-label="Area">Problem Statements</div><div class="l-cell" data-label="What Went Well">Thematic diversity; real justicemaking needs; strong data-as-facts approach</div><div class="l-cell" data-label="What Could Improve">Less wordy language; clearer expectations on technology scope</div></div>
+      <div class="learning-row" data-animate><div class="l-cell" data-label="Area">Reflections &amp; Sharing</div><div class="l-cell" data-label="What Went Well">Safe space created; participants gave rich, justice-connected reflections</div><div class="l-cell" data-label="What Could Improve">Better Malayalam/English translation; deeper connection with technology angle</div></div>
+      <div class="learning-row" data-animate><div class="l-cell" data-label="Area">Solution &amp; Prototyping</div><div class="l-cell" data-label="What Went Well">Freedom in format and content; creative autonomy</div><div class="l-cell" data-label="What Could Improve">More time for prototyping; more technical guidance; case studies were too complex</div></div>
+      <div class="learning-row" data-animate><div class="l-cell" data-label="Area">Mentorship</div><div class="l-cell" data-label="What Went Well">Equal distribution; mentors given choice of problem statements</div><div class="l-cell" data-label="What Could Improve">Structured feedback on capabilities; better utilisation of pre-prepared resource list</div></div>
+    </div>
+  </section>
+</div>
+
+<div class="bg-deep-night" id="gallery">
+  <section class="section">
+    <div class="section-label">Captured Moments</div>
+    <div class="section-title">Through the <em style="color:var(--gold)">lens</em></div>
+    <div class="section-body">Eighteen hours of collaboration, curiosity, and creation — documented.</div>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-icebreaker/800/600" alt="Opening Icebreaker" loading="lazy"><div class="photo-overlay"><span>Opening Icebreaker</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-discussion/800/600" alt="Justice & Innovation" loading="lazy"><div class="photo-overlay"><span>Justice &amp; Innovation</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-river/800/600" alt="River of Life" loading="lazy"><div class="photo-overlay"><span>River of Life</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-listening/800/600" alt="Deep Listening" loading="lazy"><div class="photo-overlay"><span>Deep Listening</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-privilege/800/600" alt="Privilege & Identity" loading="lazy"><div class="photo-overlay"><span>Privilege &amp; Identity</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-latework/800/600" alt="Late-Night Prototyping" loading="lazy"><div class="photo-overlay"><span>Late-Night Prototyping</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-mentor/800/600" alt="Mentor Consultations" loading="lazy"><div class="photo-overlay"><span>Mentor Consultations</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-clay/800/600" alt="Clay Modelling" loading="lazy"><div class="photo-overlay"><span>Clay Modelling</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-5am/800/600" alt="The 5 AM Reveal" loading="lazy"><div class="photo-overlay"><span>The 5 AM Reveal</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-building/800/600" alt="Building Solutions" loading="lazy"><div class="photo-overlay"><span>Building Solutions</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-demos/800/600" alt="Prototype Demos" loading="lazy"><div class="photo-overlay"><span>Prototype Demos</span></div></div>
+      <div class="photo-item"><img src="https://picsum.photos/seed/ji-closing/800/600" alt="Closing Circle" loading="lazy"><div class="photo-overlay"><span>Closing Circle</span></div></div>
+    </div>
+  </section>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <div class="lb-backdrop" id="lbBackdrop"></div>
+  <button class="lb-close" id="lbClose" aria-label="Close">&#x2715;</button>
+  <button class="lb-arrow lb-prev" id="lbPrev" aria-label="Previous">&#x2039;</button>
+  <button class="lb-arrow lb-next" id="lbNext" aria-label="Next">&#x203A;</button>
+  <div class="lb-stage">
+    <img class="lb-img" id="lbImg" src="" alt="">
+    <div class="lb-info">
+      <span class="lb-caption" id="lbCaption"></span>
+      <span class="lb-counter" id="lbCounter"></span>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-logos"><span class="footer-logo">Awaaz Leadership Labs</span><span class="footer-logo">Schematise</span><span class="footer-logo">TinkerSpace</span></div>
+  <p>Justice Innovation 101: Tech for Justice Edition · Ernakulam, Kerala · November 2025</p>
+  <p style="margin-top:.8rem; opacity:.5">Event report by Sankalp · Built with care for the justice innovation community</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
